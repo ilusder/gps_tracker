@@ -29,8 +29,7 @@ sequenceDiagram
 
 ```mermaid
 graph LR
-  MCU[MCU]--I2C-->OLED[OLED Display];
-  OLED--I2C-->MCU;
+  MCU[MCU]--SPI-->OLED[OLED Display];
   MCU--RS232-->GNSS[GNSS Module];
   MCU--SPI-->LORA[LoRa Module];
 ```
