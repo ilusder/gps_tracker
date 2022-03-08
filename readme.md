@@ -1,6 +1,7 @@
 # GPS tracker system
 
 GPS tracker system based on LoRa transceiver.
+LORAWAN gateway module based on STM32MP1/Raspbery PI
 
 
 # Hardware
